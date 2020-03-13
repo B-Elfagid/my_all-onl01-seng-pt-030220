@@ -1,8 +1,8 @@
 require 'pry'
 
-my_all?([1,2,3]) {|i| i < 2}
 
-def my_all?(collection)
+
+def my_all?([1, 2, 3])
   i = 0
   while i < collection.length
   yield(collection[i])
